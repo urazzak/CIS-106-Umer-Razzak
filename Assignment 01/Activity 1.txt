@@ -1,1 +1,27 @@
-
+Function Main
+    Output "Feeling Hungry?"
+    
+    ... "Yes"
+    Output "Gather ingrediants"
+    Output "Mayonase, two slices of bread, turkey slice, knife, tomato, cutting board"
+    Output "open the bag of bread"
+    Output "Set one slice of bread on the plate"
+    Output "Open Jar of Mayo"
+    Output "Pick up knife"
+    Output "Place the knife in the jar of mayonase"
+    Output "Spread the mayonase that is on the knife to the slice of bread on the plate"
+    Output "now open the package of turkey slices"
+    Output "take out one slice of turkey"
+    Output "Add the slice of turkey on top of the slice of bread that is on the plate"
+    Output "Place cutting board on a flat surface"
+    Output "place the tomato on the cutting board"
+    Output "cut the tomato in half"
+    Output "Take a half piece of tomato and cut one 1/4 inch slice of tomato"
+    Output "Place the 1/4 inch slice of tomato on top of the turkey slice that is on the bread"
+    Output "take out a second slice of bread from the bread bag"
+    Output "Place the second slice of bread on top of the 1/4 inch tomato slice"
+    Output "close the bread bag"
+    Output "close the tukey slice package"
+    Output "Place the Mayonase, Tomato, and Turkey package back into the fridge"
+    Output "Place dirty knife in kitchen sink"
+End
