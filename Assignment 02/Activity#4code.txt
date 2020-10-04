@@ -1,0 +1,15 @@
+Function Main
+    ... This program converts gallons to liters
+    Declare Real Liters
+    Declare Real Gallons
+    
+    ... Prompt user for volume in gallons
+    Output "Enter the amount of gallons: "
+    Input Gallons
+    
+    ... Convert gallons into liters (metric conversion)
+    Assign Liters = Gallons * 3.7854
+    
+    ... Display Results: display converted volume 
+    Output "The volume in liters is " & Liters
+End

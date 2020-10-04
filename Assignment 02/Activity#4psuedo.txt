@@ -1,0 +1,10 @@
+Function Main
+    ... Prompt user for volume in gallons
+    Input Gallons
+    
+    ... Convert gallons into liters (metric conversion)
+    Assign Liters = Gallons * 3.7854
+    
+    ... Display Results: display converted volume 
+    Output "The volume in liters is " & liters
+End
