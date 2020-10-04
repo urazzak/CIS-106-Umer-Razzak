@@ -1,0 +1,27 @@
+Function Main
+    Declare Integer Quarters
+    Declare Integer Dimes
+    Declare Integer Nickels
+    Declare Integer Pennies
+    Declare Real quarter
+    Declare Real dime
+    Declare Real nickel
+    Declare Real penny
+    Declare Real total
+    
+    Output "Place bag or jar of coins on the counter"
+    Output "Enter the amount of qaurters: "
+    Input Quarters
+    Output "Enter the amount of dimes: "
+    Input Dimes
+    Output "Enter the amount of nickels: "
+    Input Nickels
+    Output "Enter the amount of pennies: "
+    Input Pennies
+    Assign quarter = 0.25
+    Assign dime = 0.10
+    Assign nickel = 0.05
+    Assign penny = 0.01
+    Assign total = (Nickels * nickel) + (Quarters * quarter) + (Dimes * dime) + (Pennies * penny)
+    Output "Your total amount is: $" & total
+End

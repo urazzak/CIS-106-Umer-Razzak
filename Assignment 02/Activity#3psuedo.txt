@@ -1,0 +1,13 @@
+Function Main
+    ... Prompt user for number of quarters, dimes, nickels and pennies
+    Input Quarters
+    Input Dimes
+    Input Nickels
+    Input Penneis
+    
+    ... Calculate total amount from user inputs and multiplying monetary value of coin
+    Assign Total = (Quarters * .25) + (Dimes * .10) + (Nickles * .05) + (Pennies * .01)
+    
+    ... Display Results: total amount of money in bag, jar, etc
+    Output "your total amount is $"
+End

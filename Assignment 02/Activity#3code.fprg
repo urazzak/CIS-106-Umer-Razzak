@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-02 03:15:50 AM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLVNKSVU1OUw7MjAyMC0xMC0wMjswMjowMzo0NCBBTTszMzI1"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVNKSVU1OUw7MjAyMC0xMC0wMjswMzoxNTo1MCBBTTs0OzM0Mzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Quarters" type="Integer" array="False" size=""/>
+            <declare name="Dimes" type="Integer" array="False" size=""/>
+            <declare name="Nickels" type="Integer" array="False" size=""/>
+            <declare name="Pennies" type="Integer" array="False" size=""/>
+            <declare name="quarter" type="Real" array="False" size=""/>
+            <declare name="dime" type="Real" array="False" size=""/>
+            <declare name="nickel" type="Real" array="False" size=""/>
+            <declare name="penny" type="Real" array="False" size=""/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <output expression="&quot;Place bag or jar of coins on the counter&quot;" newline="True"/>
+            <output expression="&quot;Enter the amount of qaurters: &quot;" newline="True"/>
+            <input variable="Quarters"/>
+            <output expression="&quot;Enter the amount of dimes: &quot;" newline="True"/>
+            <input variable="Dimes"/>
+            <output expression="&quot;Enter the amount of nickels: &quot;" newline="True"/>
+            <input variable="Nickels"/>
+            <output expression="&quot;Enter the amount of pennies: &quot;" newline="True"/>
+            <input variable="Pennies"/>
+            <assign variable="quarter" expression="0.25"/>
+            <assign variable="dime" expression="0.10"/>
+            <assign variable="nickel" expression="0.05"/>
+            <assign variable="penny" expression="0.01"/>
+            <assign variable="total" expression="(Nickels * nickel) + (Quarters * quarter) + (Dimes * dime) + (Pennies * penny)"/>
+            <output expression="&quot;Your total amount is: $&quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

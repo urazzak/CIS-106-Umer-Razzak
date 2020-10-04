@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-04 07:52:51 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLUhRTkhPUjE7MjAyMC0xMC0wNDswNzowNToxMyBQTTszMzU3"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLUhRTkhPUjE7MjAyMC0xMC0wNDswNzo1Mjo1MSBQTTsxOzM0Njk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Prompt user for number of quarters, dimes, nickels and pennies"/>
+            <input variable="Quarters"/>
+            <input variable="Dimes"/>
+            <input variable="Nickels"/>
+            <input variable="Penneis"/>
+            <comment text="Calculate total amount from user inputs and multiplying monetary value of coin"/>
+            <assign variable="Total" expression="(Quarters * .25) + (Dimes * .10) + (Nickles * .05) + (Pennies * .01)"/>
+            <comment text="Display Results: total amount of money in bag, jar, etc"/>
+            <output expression="&quot;your total amount is $&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
