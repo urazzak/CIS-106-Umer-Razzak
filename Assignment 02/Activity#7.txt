@@ -1,0 +1,13 @@
+Function Main
+    ... This program  prompts the user for the name of their dog and its age in human years. Then convert it into dog years.
+    Declare String name
+    Declare Real age
+    Declare Real dogyears
+    
+    Output "Enter your dog's name."
+    Input name
+    Output "Enter your dag's age in years."
+    Input age
+    Assign dogyears = age * 7
+    Output name & " is currently " & dogyears & " years old in dog years"
+End
