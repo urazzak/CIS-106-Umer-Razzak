@@ -1,0 +1,29 @@
+Function Main
+    ... This program will help users determine how much paint is required for the room and cost.
+    Declare Real Length
+    Declare Real Width
+    Declare Real Height
+    Declare Real Price
+    Declare Real Area
+    Declare Real Gallons
+    Declare Real Cost
+    
+    ... Prompt user to input length, width and hieght of room.  
+    ... Prompt user to input price per gallon of paint.
+    Output "Enter the length of the room in feet"
+    Input Length
+    Output "Enter the width of the room in feet"
+    Input Width
+    Output "Enter the height of the room in feet"
+    Input Height
+    Output "Enter the price per gallon of paint"
+    Input Price
+    
+    ... Calculate the area of the room, total number of gallons needed, and total cost.
+    Assign Area = 2 * Length * Height + 2 * Width * Height
+    Assign Gallons = Area / 400
+    Assign Cost = Gallons * Price
+    
+    ... Display Results: Display total gallons and total cost
+    Output "The amount of paint required is " & gallons & ", the total cost is $" & Cost
+End

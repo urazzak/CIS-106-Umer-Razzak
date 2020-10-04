@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-04 10:08:20 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLUlDMTVNQ0U7MjAyMC0xMC0wNDswOTozODo0MyBQTTszMzEw"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLUlDMTVNQ0U7MjAyMC0xMC0wNDsxMDowODoyMCBQTTszOzM0MDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="This program will help users determine how much paint is required for the room and cost."/>
+            <comment text="Prompt user to input length, width and hieght of room. &#13;&#10;Prompt user to input price per gallon of paint."/>
+            <input variable="Length"/>
+            <input variable="Width"/>
+            <input variable="Height"/>
+            <input variable="Price"/>
+            <comment text="Calculate the area of the room, total number of gallons needed, and total cost."/>
+            <assign variable="Area" expression="2 * Length * Height + 2 * Width * Height"/>
+            <assign variable="Gallons" expression="Area / 400"/>
+            <assign variable="Cost" expression="Gallons * Price"/>
+            <comment text="Display Results: Display total gallons and total cost"/>
+            <output expression="&quot;The amount of paint required is &quot; &amp; gallons &amp; &quot;, the total cost is $&quot; &amp; Cost" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
