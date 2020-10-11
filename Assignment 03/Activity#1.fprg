@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-11 07:52:44 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLU9HMkQ1Qkk7MjAyMC0xMC0xMTswNzo0NToxMiBQTTszMzA1"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLU9HMkQ1Qkk7MjAyMC0xMC0xMTswNzo1Mjo0NCBQTTsxOzM0MTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Name" type="String" array="False" size=""/>
+            <assign variable="Name" expression="GetName()"/>
+            <call expression="DisplayHello(Name)"/>
+        </body>
+    </function>
+    <function name="DisplayHello" type="None" variable="">
+        <parameters>
+            <parameter name="Name" type="String" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;Hello &quot; &amp; Name &amp; &quot;!&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="GetName" type="String" variable="Name">
+        <parameters/>
+        <body>
+            <declare name="Name" type="String" array="False" size=""/>
+            <output expression="&quot;What is your name?&quot;" newline="True"/>
+            <input variable="Name"/>
+        </body>
+    </function>
+</flowgorithm>

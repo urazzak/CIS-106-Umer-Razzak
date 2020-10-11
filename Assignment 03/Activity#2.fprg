@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-11 08:20:41 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLU9HMkQ1Qkk7MjAyMC0xMC0xMTswODowMjoyMSBQTTszMjk5"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLU9HMkQ1Qkk7MjAyMC0xMC0xMTswODoyMDo0MSBQTTs0OzM0MTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="This program will calculate the area and perimeter of a room"/>
+            <declare name="Length" type="Real" array="False" size=""/>
+            <declare name="Width" type="Real" array="False" size=""/>
+            <declare name="Area" type="Real" array="False" size=""/>
+            <declare name="Perimeter" type="Real" array="False" size=""/>
+            <assign variable="Length" expression="GetLength()"/>
+            <assign variable="Width" expression="GetWidth()"/>
+            <assign variable="Area" expression="CalculateArea(Length, Width)"/>
+            <assign variable="Perimeter" expression="CalculatePerimeter(Length, Width)"/>
+            <call expression="DisplayResults(Area, Perimeter)"/>
+        </body>
+    </function>
+    <function name="CalculateArea" type="Real" variable="Area">
+        <parameters>
+            <parameter name="Length" type="Real" array="False"/>
+            <parameter name="Width" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Area" type="Real" array="False" size=""/>
+            <assign variable="Area" expression="Length * Width"/>
+        </body>
+    </function>
+    <function name="CalculatePerimeter" type="Real" variable="Perimeter">
+        <parameters>
+            <parameter name="Length" type="Real" array="False"/>
+            <parameter name="Width" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Perimeter" type="Real" array="False" size=""/>
+            <assign variable="Perimeter" expression="(2 * Length) + (2 * Width)"/>
+        </body>
+    </function>
+    <function name="DisplayResults" type="None" variable="">
+        <parameters>
+            <parameter name="Area" type="Integer" array="False"/>
+            <parameter name="Perimeter" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;The Area of the room is &quot; &amp; Area &amp; &quot;, and the Perimeter is &quot; &amp; Perimeter" newline="True"/>
+        </body>
+    </function>
+    <function name="GetLength" type="Real" variable="Length">
+        <parameters/>
+        <body>
+            <declare name="Length" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the length of the room in feet:&quot;" newline="True"/>
+            <input variable="Length"/>
+        </body>
+    </function>
+    <function name="GetWidth" type="Real" variable="Width">
+        <parameters/>
+        <body>
+            <declare name="Width" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the width of the room in feet:&quot;" newline="True"/>
+            <input variable="Width"/>
+        </body>
+    </function>
+</flowgorithm>
