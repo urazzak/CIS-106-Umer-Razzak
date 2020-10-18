@@ -7,3 +7,7 @@ My name is Umer Razzak, and this is my very first computer class. My goal is to 
 
 ## Assignment 2
 During session two I learned the importance of commenting changes to my source code when uploading into a shared repository. This will initially help co-developers identify key fixes or changes in the code. The Integrated Development Enviroment (IDE) I chose to test my source code was Visual Studio Code, and the language for the tool is Python. (However for this activty I wrote my program in JAVA Script.) The reason I chose this tool was because I have seen it many times in my work enviroment, and recognized it right away. I beleive using this tool throughout the course will help me apply practical knowledge in the work enviroment.
+
+
+## Assignment 3
+In this session I learned the importance of assigning values and constants in our code. Also, being able to identify specific pieces of code using case sensitive language. It is crucial when referring back to a certain variable as an identifier. There is a lot of information in Chapter 2 and 3 of the book, one thing that helped me along the way of this chapter was tabulating all the different data types and identifiers in Excel.
