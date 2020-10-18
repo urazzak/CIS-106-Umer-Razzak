@@ -11,3 +11,8 @@ During session two I learned the importance of commenting changes to my source c
 
 ## Assignment 3
 In this session I learned the importance of assigning values and constants in our code. Also, being able to identify specific pieces of code using case sensitive language. It is crucial when referring back to a certain variable as an identifier. There is a lot of information in Chapter 2 and 3 of the book, one thing that helped me along the way of this chapter was tabulating all the different data types and identifiers in Excel.
+
+
+## Assignment 4
+During this session we continued on the importance of functions and how breaking down or modularizing can help us create a cleaner, and much easier to read program. Essentially this will give testers and peer programmers the ability de-bug, and update our programs. Creating functions help us leverage code that is already written instead of having to restart each time we need to update or create new code. The programming language I chose for this activity is Python as there is vast documentation, and notes to help you write your code. The IDE I have chosen is Visual Studio Code.
+
