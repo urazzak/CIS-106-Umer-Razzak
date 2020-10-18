@@ -1,0 +1,22 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww8060\viewh16060\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Input:\
+Display message to prompt user to input name and exam scores 1 & 2\
+Get Name from user\
+Get Exam 1 Score from user\
+Get Exam 2 Score from user\
+\
+Processing:\
+Calculate Total Score Exam 1 is worth 40% and Exam 2 is worth 60%. Multiplay scores by percents and Add for Total Score\
+Calculate Exam 1 by multiplying 1st score  x .40\
+Calculate Exam 2 by multiplying 2nd score x .60\
+Calculate Total Score by adding the calculated exam scores\
+\
+Output:\
+Display Name \
+Display Total Score}

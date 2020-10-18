@@ -1,0 +1,16 @@
+Input:
+Display message to prompt user for number of seats and price per seat
+Get Quantity from user
+Get Price from user
+
+Processing:
+Calculate Total Price: by multiplying Quantity and Price
+Calculate Tax: by multiplying .7% by Total Price
+Calculate Total cost: by adding Tax and Total Price
+
+Output:
+Display Quantity
+Display Price
+Display Total Price
+Display Tax
+Display Total Cost
