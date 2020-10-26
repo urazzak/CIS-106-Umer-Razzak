@@ -1,0 +1,15 @@
+Input:
+Prompt user for Last Name
+Prompt user for Number of Hours worked
+Prompt user for Rate per Hour
+
+
+Processing:
+Calculate Gross Pay: by multiplying Hours by Rate
+If Hours > 40
+	Overtime = 1.5 * (Hours - 40)
+Else
+	Overtime = 0 
+
+Output:
+Display Name, Hours, Rate, and Gross Pay
