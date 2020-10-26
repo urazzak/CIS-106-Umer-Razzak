@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-25 10:20:42 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTVQM0dTVUk7MjAyMC0xMC0yNTswODozODo0MyBQTTszMzUz"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTVQM0dTVUk7MjAyMC0xMC0yNTsxMDoyMDo0MiBQTTs1OzM0NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Quantity" type="Integer" array="False" size=""/>
+            <declare name="Price" type="Real" array="False" size=""/>
+            <declare name="Total" type="Real" array="False" size=""/>
+            <declare name="Tax" type="Real" array="False" size=""/>
+            <declare name="Shipping" type="Real" array="False" size=""/>
+            <declare name="Order" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the quantity of items: &quot;" newline="True"/>
+            <input variable="Quantity"/>
+            <output expression="&quot;Enter the price for the items: &quot;" newline="True"/>
+            <input variable="Price"/>
+            <assign variable="Total" expression="GetTotal(Quantity, Price)"/>
+            <assign variable="Tax" expression="CalculateTax(Total)"/>
+            <assign variable="Shipping" expression="CalculateShipping(Total)"/>
+            <assign variable="Order" expression="CalculateOrder(Total, Shipping, Tax)"/>
+            <call expression="DisplayResults(Tax, Total, Order, Shipping, Quantity, Price)"/>
+        </body>
+    </function>
+    <function name="CalculateOrder" type="Real" variable="Order">
+        <parameters>
+            <parameter name="Shipping" type="Real" array="False"/>
+            <parameter name="Tax" type="Real" array="False"/>
+            <parameter name="Total" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Order" type="Real" array="False" size=""/>
+            <assign variable="Order" expression="Total + Shipping + Tax"/>
+        </body>
+    </function>
+    <function name="CalculateShipping" type="Real" variable="Shipping">
+        <parameters>
+            <parameter name="Total" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Shipping" type="Real" array="False" size=""/>
+            <if expression="Total &gt;= 100">
+                <then>
+                    <assign variable="Shipping" expression="0"/>
+                </then>
+                <else>
+                    <assign variable="Shipping" expression="Total * 0.10"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="CalculateTax" type="Real" variable="Tax">
+        <parameters>
+            <parameter name="Total" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Tax" type="Real" array="False" size=""/>
+            <assign variable="Tax" expression="Total * 0.07"/>
+        </body>
+    </function>
+    <function name="DisplayResults" type="None" variable="">
+        <parameters>
+            <parameter name="Tax" type="Real" array="False"/>
+            <parameter name="Total" type="Real" array="False"/>
+            <parameter name="Order" type="Real" array="False"/>
+            <parameter name="Shipping" type="Real" array="False"/>
+            <parameter name="Quantity" type="Integer" array="False"/>
+            <parameter name="Price" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;The total quantity is: &quot; &amp; Quantity &amp; &quot;, The price per item is: &quot; &amp; Price &amp; &quot;, The shipping cost is: &quot; &amp; Shipping &amp; &quot;, The order total is: &quot; &amp; Order" newline="True"/>
+        </body>
+    </function>
+    <function name="GetTotal" type="Real" variable="Total">
+        <parameters>
+            <parameter name="Quantity" type="Integer" array="False"/>
+            <parameter name="Price" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Total" type="Real" array="False" size=""/>
+            <assign variable="Total" expression="Price * Quantity"/>
+        </body>
+    </function>
+</flowgorithm>

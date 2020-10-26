@@ -1,0 +1,16 @@
+Input:
+Prompt user for Widget (A or B)
+Prompt user for quantity of the widgets
+
+
+Processing:
+Calculate Total: by multiplying Widget and Quantity
+If Widget == "A" or "a"
+	price = $10
+Elif Widget == "B" or "b"
+	price = $20
+Else
+	user did not make a correct choice 
+
+Output:
+Display Widget, Price, and Total
