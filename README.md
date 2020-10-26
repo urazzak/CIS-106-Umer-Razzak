@@ -16,3 +16,6 @@ In this session I learned the importance of assigning values and constants in ou
 ## Assignment 4
 During this session we continued on the importance of functions and how breaking down or modularizing can help us create a cleaner, and much easier to read program. Essentially this will give testers and peer programmers the ability de-bug, and update our programs. Creating functions help us leverage code that is already written instead of having to restart each time we need to update or create new code. The programming language I chose for this activity is Python as there is vast documentation, and notes to help you write your code. The IDE I have chosen is Visual Studio Code.
 
+
+## Assignment 5
+This session was a bit confusing for me at first, but I was able to understand the concepts and apply them within my code. The video was very helpful that the professor provided to us. I am still having a little trouble on how to return multiple variable from a particular function.﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿ In the second activity I wanted to create one function to prompt the user for both input values and then pass them to other functions. I was not able to do this and ended up having to create separate functions.
