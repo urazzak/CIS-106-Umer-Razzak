@@ -27,3 +27,7 @@ In this session we learned the importance of IF statements and nested IF statmen
 
 ## Assignment 7
 In this session we learned the importance of loops and how they are crucial to our code structure. Essentially loops can be used in multiple different ways, one way is when we want to verify a flag within our program to be true in order to proceed. How this is used in a real world example would be a test given to a student. We can write a program to prompt questions at random to student repeaditly until they have reached the final question. Loops can help the program run until a certain conditon is met, in this case it is the number of questions. 
+
+
+## Assignment 8
+In this Session we learned the difference between FOR loops and WHILE loops, as well as when to use them. Essentially we use while loops and for loops to meet a certain condition however its is much easier to structure your program using FOR loops when you know exactly how many times the program needs to loop and incremental value. During the while loop section we could accomplish the same, but I noticed that I need to write much more functions for my program to excute properly. However when we do not know the increment value or the amount of times we would like our program to loop we can leverage WHILE loops.
