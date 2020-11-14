@@ -19,3 +19,7 @@ During this session we continued on the importance of functions and how breaking
 
 ## Assignment 5
 This session was a bit confusing for me at first, but I was able to understand the concepts and apply them within my code. The video was very helpful that the professor provided to us. I am still having a little trouble on how to return multiple variable from a particular function.﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿ In the second activity I wanted to create one function to prompt the user for both input values and then pass them to other functions. I was not able to do this and ended up having to create separate functions.
+
+
+## Assignment 6
+In this session we learned the importance of IF statements and nested IF statments. It is definitely more beneficial to have your IF statements nested within your program, if you would like it to follow a seqential flow like creating an exam for a student. However it is possible to "un-nest" the nested IF statements this would provide us the program the ability to select between multiple options. This would be preffered if the program is complex like a video game!
