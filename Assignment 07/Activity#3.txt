@@ -1,0 +1,10 @@
+Input:
+Prompt user to input if they want to do the program
+Prompt user to input their last name
+Prompt user to input 2 exam scores
+
+Processing:
+Calculate average score 
+
+Output:
+Display last name and average score
