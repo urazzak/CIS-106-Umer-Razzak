@@ -1,0 +1,22 @@
+Input:
+Prompt user to input quantity of items ordered
+
+
+Processing:
+Calculate price per item through given quantity
+Calculate the total price or extended price by multiplying price per item and quantity
+
+Output:
+ Display Quantity, Unit Price, Total Price
+
+
+Input:
+Prompt user to input employee last name 
+Prompt user to input job code 
+Prompt user to input years of service 
+
+Processing:
+Calculate employees bonus amount from given input
+
+Output:
+Display Employees last name and bonus amount 

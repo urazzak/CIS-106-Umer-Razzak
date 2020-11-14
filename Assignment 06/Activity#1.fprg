@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-12 03:44:44 AM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLUNBRklKS1Q7MjAyMC0xMS0xMjswMzozMjoxNiBBTTszMzM2"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLUNBRklKS1Q7MjAyMC0xMS0xMjswMzo0NDo0NCBBTTsxOzM0NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Years" type="Integer" array="False" size=""/>
+            <assign variable="Years" expression="GetInput()"/>
+            <call expression="DisplayAward(Years)"/>
+        </body>
+    </function>
+    <function name="DisplayAward" type="None" variable="">
+        <parameters>
+            <parameter name="Years" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <if expression="Years &gt; 10">
+                <then>
+                    <output expression="&quot;The employees Service Award is $1,000&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Years &gt;= 5">
+                        <then>
+                            <output expression="&quot;The employee's Service Award is $500.00&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="Years &lt; 5">
+                                <then>
+                                    <output expression="&quot;The employee's Service Award is $100.00&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;You did not enter a valid input&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="GetInput" type="Integer" variable="Years">
+        <parameters/>
+        <body>
+            <declare name="Years" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter employee's year(s) of service&quot;" newline="True"/>
+            <input variable="Years"/>
+        </body>
+    </function>
+</flowgorithm>
