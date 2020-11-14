@@ -23,3 +23,7 @@ This session was a bit confusing for me at first, but I was able to understand t
 
 ## Assignment 6
 In this session we learned the importance of IF statements and nested IF statments. It is definitely more beneficial to have your IF statements nested within your program, if you would like it to follow a seqential flow like creating an exam for a student. However it is possible to "un-nest" the nested IF statements this would provide us the program the ability to select between multiple options. This would be preffered if the program is complex like a video game!
+
+
+## Assignment 7
+In this session we learned the importance of loops and how they are crucial to our code structure. Essentially loops can be used in multiple different ways, one way is when we want to verify a flag within our program to be true in order to proceed. How this is used in a real world example would be a test given to a student. We can write a program to prompt questions at random to student repeaditly until they have reached the final question. Loops can help the program run until a certain conditon is met, in this case it is the number of questions. 
