@@ -1,0 +1,10 @@
+Input:
+Prompt user to input Amount Invested in a CD
+Prompt user to input for Interest Rate
+Prompt user to input term in years
+
+Processing:
+Calculate simple interest by year up to the term
+
+Output:
+Display simple interest by year up to the term
