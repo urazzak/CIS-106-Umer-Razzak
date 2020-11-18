@@ -31,3 +31,7 @@ In this session we learned the importance of loops and how they are crucial to o
 
 ## Assignment 8
 In this Session we learned the difference between FOR loops and WHILE loops, as well as when to use them. Essentially we use while loops and for loops to meet a certain condition however its is much easier to structure your program using FOR loops when you know exactly how many times the program needs to loop and incremental value. During the while loop section we could accomplish the same, but I noticed that I need to write much more functions for my program to excute properly. However when we do not know the increment value or the amount of times we would like our program to loop we can leverage WHILE loops.
+
+
+## Assignment 9
+In this session we learned the importance of arrays. As programmers we will be required to keep multideminisional data and be able to parse through the data to meet end user needs. Unfortunatley this is also the main draw back of arrays. In the past when we assigned a value to a variable it was much easier to call the value and display the variable the user needs. During this activity we had to take and extra step, and read through or parse the data in our array and display the desired value.
