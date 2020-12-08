@@ -35,3 +35,7 @@ In this Session we learned the difference between FOR loops and WHILE loops, as 
 
 ## Assignment 9
 In this session we learned the importance of arrays. As programmers we will be required to keep multideminisional data and be able to parse through the data to meet end user needs. Unfortunatley this is also the main draw back of arrays. In the past when we assigned a value to a variable it was much easier to call the value and display the variable the user needs. During this activity we had to take and extra step, and read through or parse the data in our array and display the desired value.
+
+
+## Assignment 10
+During this session we learned the importance of arrays, and how fixed arrays can limit a program and end-user ability to append and remove data from lists and tables. Having the ability to add new item or prompt user for inputs within our database can create a better program. We also learned the ability to sort, add, remove, and so much more! These are helpful tools to build a complex data structure as outlined in the book. As programmers arrays are a great tool to have under our belts.
