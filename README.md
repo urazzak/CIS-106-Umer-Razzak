@@ -39,3 +39,7 @@ In this session we learned the importance of arrays. As programmers we will be r
 
 ## Assignment 10
 During this session we learned the importance of arrays, and how fixed arrays can limit a program and end-user ability to append and remove data from lists and tables. Having the ability to add new item or prompt user for inputs within our database can create a better program. We also learned the ability to sort, add, remove, and so much more! These are helpful tools to build a complex data structure as outlined in the book. As programmers arrays are a great tool to have under our belts.
+
+
+## Assignment 11
+In this section we expanded on our knowledge of lists and arrays. Strings in python can be leveraged as arrays, we learned to parse strings and display data from strings in anyway. Just like arrays strings can be manipulated as the hold a byte of data with each character. With the use of our array knowledge we completed activities on prompting user for an input, create functions to manipulate the data, and display the results to our users.
