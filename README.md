@@ -43,3 +43,7 @@ During this session we learned the importance of arrays, and how fixed arrays ca
 
 ## Assignment 11
 In this section we expanded on our knowledge of lists and arrays. Strings in python can be leveraged as arrays, we learned to parse strings and display data from strings in anyway. Just like arrays strings can be manipulated as the hold a byte of data with each character. With the use of our array knowledge we completed activities on prompting user for an input, create functions to manipulate the data, and display the results to our users.
+
+
+## Assignment 12
+In this session we learned how to import and read data files. The most challenging part of reading files is parsing the data that you will need. In our case, we had to split the names of students from the scores they recieved and perform different calculations with the scores. Once we are able to parse the data performing different functions is very easy. The advantage of having pre-populated data is being able to account for any errors in the data. For example, if we prompted our user to type in 100 test scores and they made an error during the data entry, none of our calculations would work and we would have to start over. With the use of reading files we are able to parse and read exactly what we need. 
